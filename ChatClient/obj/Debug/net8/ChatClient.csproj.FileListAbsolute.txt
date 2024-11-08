@@ -27,3 +27,4 @@ C:\Users\CDev\Documents\Programming\NeutronSocket\ChatClient\ChatClient\obj\Debu
 C:\Users\CDev\Documents\Programming\NeutronSocket\ChatClient\ChatClient\obj\Debug\net8\ChatClient.pdb
 C:\Users\CDev\Documents\Programming\NeutronSocket\ChatClient\ChatClient\obj\Debug\net8\ChatClient.genruntimeconfig.cache
 C:\Users\CDev\Documents\Programming\NeutronSocket\ChatClient\ChatClient\obj\Debug\net8\ref\ChatClient.dll
+C:\Users\CDev\Documents\Programming\NeutronSocket\ChatClient\ChatClient\obj\Debug\net8\ChatClient.sourcelink.json
