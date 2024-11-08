@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>Nullable</WarningsAsErrors>
+    <InvariantGlobalization>True</InvariantGlobalization>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Neutron" Version="0.2.8" />
+  </ItemGroup>
+  
+  <Target Name="BuildFrontend">
+    <Exec Command="neutroncli build --frontend" WorkingDirectory="../" />
+    
+    <ItemGroup>
+      <DistFiles Include="dist\**" />
+    </ItemGroup>
+  </Target>
+
+  <Target Name="CopyDistFolderOnBuild" AfterTargets="Build" DependsOnTargets="BuildFrontend">
+    <Copy SourceFiles="@(DistFiles)" DestinationFolder="$(OutDir)dist\%(RecursiveDir)" />
+  </Target>
+
+  <Target Name="CopyDistFolderOnPublish" AfterTargets="Publish" DependsOnTargets="BuildFrontend">
+    <Copy SourceFiles="@(DistFiles)" DestinationFolder="$(PublishDir)dist\%(RecursiveDir)" />
+  </Target>
+</Project>

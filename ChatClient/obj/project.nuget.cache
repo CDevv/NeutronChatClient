@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "iQfUShfmwlw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CDev\\Documents\\Programming\\NeutronSocket\\ChatClient\\ChatClient\\ChatClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CDev\\.nuget\\packages\\atksharp\\3.24.24.95\\atksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\CDev\\.nuget\\packages\\cairosharp\\3.24.24.95\\cairosharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\CDev\\.nuget\\packages\\gdksharp\\3.24.24.95\\gdksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\CDev\\.nuget\\packages\\giosharp\\3.24.24.95\\giosharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\CDev\\.nuget\\packages\\glibsharp\\3.24.24.95\\glibsharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\CDev\\.nuget\\packages\\gtksharp\\3.24.24.95\\gtksharp.3.24.24.95.nupkg.sha512",
+    "C:\\Users\\CDev\\.nuget\\packages\\neutron\\0.2.8\\neutron.0.2.8.nupkg.sha512",
+    "C:\\Users\\CDev\\.nuget\\packages\\neutronsharpwebview\\0.11.7\\neutronsharpwebview.0.11.7.nupkg.sha512",
+    "C:\\Users\\CDev\\.nuget\\packages\\pangosharp\\3.24.24.95\\pangosharp.3.24.24.95.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+{
+  "ProjectName": "ChatClient",
+  "DotnetVersion": "net8",
+  "FrontendName": "chat-client-frontend",
+  "BackendName": "ChatClient"
+}
